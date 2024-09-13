@@ -1,0 +1,49 @@
+{
+  "data": [
+    {
+      "brand": "Apple",
+      "model": "iPhone 14",
+      "price": 999,
+      "features": ["Face ID", "Dual Camera", "A15 Bionic Chip"],
+      "id": 1
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy S22",
+      "price": 799,
+      "features": ["120Hz Display", "Triple Camera", "Snapdragon 8 Gen 1"],
+      "id": 2
+    },
+    {
+      "brand": "Google",
+      "model": "Pixel 7",
+      "price": 599,
+      "features": ["Tensor G2 Chip", "Super Res Zoom", "Night Sight"],
+      "id": 3
+    },
+    {
+      "brand": "OnePlus",
+      "model": "OnePlus 10 Pro",
+      "price": 899,
+      "features": ["Fluid AMOLED", "Triple Camera", "Fast Charging"],
+      "id": 4
+    },
+    {
+      "brand": "Xiaomi",
+      "model": "Mi 12",
+      "price": 749,
+      "features": ["120W Fast Charge", "Triple Camera", "AMOLED Display"],
+      "id": 5
+    },
+    {
+      "brand": "Sony",
+      "model": "Xperia 1 IV",
+      "price": 1199,
+      "features": ["4K HDR Display", "Triple Camera", "Audio Jack"],
+      "id": 6
+    }
+  ],
+  "total": 6,
+  "skip": 0,
+  "limit": 0
+}

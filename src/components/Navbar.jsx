@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import logo from "../assets/images/Logo.svg";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const [theme, setTheme] = useState("winter");
@@ -19,7 +20,11 @@ function Navbar() {
           <img className="mt-2 ml-10" src={logo} alt="Logo" width={200} />
         </div>
 
-        <label className="swap swap-rotate ml-[980px]">
+        <nav className="absolute ml-72 border rounded-lg  mt-2">
+        <Link to="/products" className=" ml-2 mr-2">Products</Link> 
+        </nav>
+
+        <label className="swap swap-rotate ml-[950px]">
           <input
             type="checkbox"
             onChange={toggleTheme}
@@ -43,7 +48,7 @@ function Navbar() {
           </svg>
         </label>
 
-        <button className="bg-[#4A3AFF] text-white font-bold py-2 mr-10 px-5 rounded-full shadow-lg hover:bg-blue-600">
+        <button className="bg-[#4A3AFF] text-white font-bold py-2 mr-18 px-5 rounded-full shadow-lg hover:bg-blue-600">
           Clone now
         </button>
       </div>
