@@ -12,8 +12,8 @@ function Main({ setCartItems }) {
     const nation = nationRef.current.value;
 
     const newItem = { name, age, nation };
-    setCartItems((prevItems) => [...prevItems, newItem]); // Update the cart in App
-    e.target.reset(); // Clear the form after submission
+    setCartItems((prevItems) => [...prevItems, newItem]);
+    e.target.reset();
   };
 
   return (

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import data from '../assets/data.json'; // Adjust the path as necessary
+import data from '../assets/data.json';
 
 function Products({ cartItems }) {
   const [products, setProducts] = useState([]);
